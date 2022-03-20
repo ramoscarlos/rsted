@@ -1,0 +1,74 @@
+body {
+    overflow: hidden;
+}
+
+#header, #footer {
+    background-color: #BB1C76;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header h1 {
+    float:  right;
+    font-size: 24px;
+    padding: 2px 0.25em 0 0;
+    line-height: 28px;
+    color: #fff;
+}
+
+#menu li {
+    font-weight: bold;
+}
+
+#menu li a {
+    color: #fff;
+}
+
+#menu li.active a {
+    color: #333;
+}
+
+.right_nav {
+    font-weight: bold;
+}
+
+.right_nav label {
+    font-weight: normal;
+}
+
+#editor {
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Space Mono', monospace;
+    resize: none;
+}
+
+#editor {
+    border: 2px solid #fff;
+}
+
+#save_as_pdf {
+    margin-top: -5px;
+}
+
+#pdf-button {
+    border: none;
+    font-weight: bold;
+    background-color: #EB458B;
+    color: #FFFFFF;
+    padding: 4px 10px;
+    margin-bottom: 2px;
+}
+
+#pdf-button:hover {
+    background-color: #BB1C76;
+}
+
+#acerca-de {
+    width: 80%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2px 0.25em 0 0;
+    font-size: 28px;
+    line-height: 36px;
+    color: #111;
+}

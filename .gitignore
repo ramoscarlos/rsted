@@ -8,3 +8,9 @@
 /var/run
 /run.sh
 /env
+# Added by Windows testing.
+pyvenv.cfg
+/Scripts
+/Include
+/Lib
+/libs

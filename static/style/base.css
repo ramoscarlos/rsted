@@ -3,7 +3,7 @@ html, body, #container {
     padding: 0;
     margin: 0;
     height: 100%;
-    background-color: #e1eaef;
+    background-color: #F5B7D0;
 }
 
 #header {
@@ -34,11 +34,9 @@ menu#navigation
     padding: 0;
 }
 
-
 #content {
     clear: left;
     padding: 2px 11px;
-	/*background-color: #88B3F9;*/
 }
 
 #content h2 {
@@ -51,7 +49,7 @@ menu#navigation
     background: #2e3341;
     text-align: right;
     padding: 11px;
-	color: #E1EAEF;
+    color: #E1EAEF;
     position: fixed;
     left: 0;
     right: 0;
@@ -110,18 +108,4 @@ li.ext_link {
 
 .ui-widget {
     font-size: 0.9em !important;
-}
-
-#github-ribbon {
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  padding: 0 1rem;
-  color: #213A49;
-  background: #E1EAEF;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 2px;
 }

@@ -1,0 +1,17 @@
+div.body {
+    font-size: 28px;
+    line-height: 36px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+blockquote {
+    border-left: 0.125em solid #666;
+    margin-left: 0.50em;
+    padding-left: 0.50em;
+}
+
+tt {
+    font-family: 'Space Mono', monospace;
+    background: #efefef;
+}

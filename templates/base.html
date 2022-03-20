@@ -3,30 +3,33 @@
     <head>
         {% block head %}
         <meta charset="UTF-8">
-        <title>{% block title %}Online reStructuredText editor{% endblock %}</title>
+        <title>{% block title %}Editor en línea de reStructuredText{% endblock %}</title>
 
-	<link rel="stylesheet" href="{{ request.script_root }}{{ MEDIA_URL }}style/base.css"/>
-	<link rel="stylesheet" href="{{ request.script_root }}{{ MEDIA_URL }}style/site.css"/>
-	<link rel="stylesheet" href="{{ request.script_root }}{{ MEDIA_URL }}style/menu.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,200&family=Space+Mono&display=swap" rel="stylesheet"> 
 
+        <link rel="stylesheet" href="{{ request.script_root }}{{ MEDIA_URL }}style/base.css"/>
+        <link rel="stylesheet" href="{{ request.script_root }}{{ MEDIA_URL }}style/site.css"/>
+        <link rel="stylesheet" href="{{ request.script_root }}{{ MEDIA_URL }}style/menu.css"/>
+        <link rel="stylesheet" href="{{ request.script_root }}{{ MEDIA_URL }}style/rc.css"/>
 
-	<script src="{{ request.script_root }}{{ MEDIA_URL }}scripts/jquery-1.6.4.min.js"></script>
-	<script src="{{ request.script_root }}{{ MEDIA_URL }}scripts/jquery.layout.min-1.2.0.js"></script>
+        <script src="{{ request.script_root }}{{ MEDIA_URL }}scripts/jquery-1.6.4.min.js"></script>
+        <script src="{{ request.script_root }}{{ MEDIA_URL }}scripts/jquery.layout.min-1.2.0.js"></script>
 
         {% endblock %}
     </head>
     <body>
-        <a id="github-ribbon" href="http://github.com/anru/rsted">Fork me on GitHub</a>
         {% block body_head %}
         {% endblock %}
         <header id="header">
-            <h1>{% block site_title %}Online reStructuredText editor{% endblock %}</h1>
+            <h1>{% block site_title %}Editor en línea de reStructuredText{% endblock %}</h1>
             <menu id="navigation">
                 {%- block main_nav %}
                 <ul class="menu" id="menu">
                     <li class="{{ is_active('index') }}"><a href="{{ url_for('index') }}">Editor</a>
                     </li>
-                    <li class="{{ is_active('about') }}"><a href="{{ url_for('about') }}">About</a></li>
+                    <li class="{{ is_active('about') }}"><a href="{{ url_for('about') }}">Acerca de</a></li>
                 </ul>
                 {% endblock -%}
             </menu>
@@ -42,11 +45,5 @@
             {%- block content %}
             {% endblock -%}
         </div>
-
-        <footer id="footer">
-            <span class="left"><a target="_blank" href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">Quick reStructuredText reference</a></span>
-            <span class="right">Copyright © rst.ninjs.org, 2011</span>
-        </footer>
-
     </body>
 </html>

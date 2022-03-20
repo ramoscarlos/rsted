@@ -29,6 +29,7 @@ def rst2html(rst, theme=None, opts=None):
     stylesheets = ['basic.css']
     if theme:
         stylesheets.append('%s/%s.css' % (theme, theme))
+    stylesheets.append('rc.css')
     rst_opts['stylesheet'] = ','.join([J('var/themes/', p) for p in stylesheets ])
 
     out = publish_string(rst, writer_name='html', settings_overrides=rst_opts)
