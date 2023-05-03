@@ -32,14 +32,14 @@
     </div>
     <div class="b_page_right">
         <div class="right_nav">
-            <div class="themes left" id="themes">Tema:
-                <input id="t_basic" type="radio" value="basic" checked="checked" name="style"/><label for="t_basic">Básico</label>
-                <input id="t_nature" type="radio" value="nature" name="style"/><label for="t_nature">Naturaleza</label>
+            <div class="themes left" id="themes">Theme:
+                <input id="t_basic" type="radio" value="basic" checked="checked" name="style"/><label for="t_basic">Basic</label>
+                <input id="t_nature" type="radio" value="nature" name="style"/><label for="t_nature">Nature</label>
             </div>
         </div>
         <div class="right">
             <form id="save_as_pdf" target="_blank" method="POST" action="{{ request.script_root }}/srv/rst2pdf/">
-                <input id="pdf-button" type="submit" value="Exportar a PDF"/>
+                <input id="pdf-button" type="submit" value="Export to PDF"/>
                 <input type="hidden" id="as_pdf_theme" name="theme"/>
             </form>
         </div>

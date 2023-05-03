@@ -3,7 +3,7 @@ body {
 }
 
 #header, #footer {
-    background-color: #BB1C76;
+    background-color: #2B3A44;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -12,7 +12,7 @@ body {
     font-size: 24px;
     padding: 2px 0.25em 0 0;
     line-height: 28px;
-    color: #fff;
+    color: hsl(0, 0% , 93%);
 }
 
 #menu li {
@@ -20,7 +20,7 @@ body {
 }
 
 #menu li a {
-    color: #fff;
+    color: hsl(0, 0% , 93%);
 }
 
 #menu li.active a {
@@ -43,7 +43,7 @@ body {
 }
 
 #editor {
-    border: 2px solid #fff;
+    border: 2px solid hsl(0, 0% , 93%);
 }
 
 #save_as_pdf {
@@ -53,17 +53,18 @@ body {
 #pdf-button {
     border: none;
     font-weight: bold;
-    background-color: #EB458B;
-    color: #FFFFFF;
+    background-color: #2B3A44;
+    color: hsl(0, 0% , 93%);
     padding: 4px 10px;
     margin-bottom: 2px;
 }
 
 #pdf-button:hover {
-    background-color: #BB1C76;
+    background-color: hsl(0, 0% , 93%);
+    color: #2B3A44;
 }
 
-#acerca-de {
+#about {
     width: 80%;
     margin: auto;
     font-family: 'Montserrat', sans-serif;

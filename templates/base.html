@@ -3,7 +3,7 @@
     <head>
         {% block head %}
         <meta charset="UTF-8">
-        <title>{% block title %}Editor en línea de reStructuredText{% endblock %}</title>
+        <title>{% block title %}Online reStructuredText Editor{% endblock %}</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,13 +23,13 @@
         {% block body_head %}
         {% endblock %}
         <header id="header">
-            <h1>{% block site_title %}Editor en línea de reStructuredText{% endblock %}</h1>
+            <h1>{% block site_title %}Online reStructuredText Editor{% endblock %}</h1>
             <menu id="navigation">
                 {%- block main_nav %}
                 <ul class="menu" id="menu">
                     <li class="{{ is_active('index') }}"><a href="{{ url_for('index') }}">Editor</a>
                     </li>
-                    <li class="{{ is_active('about') }}"><a href="{{ url_for('about') }}">Acerca de</a></li>
+                    <li class="{{ is_active('about') }}"><a href="{{ url_for('about') }}">About</a></li>
                 </ul>
                 {% endblock -%}
             </menu>
