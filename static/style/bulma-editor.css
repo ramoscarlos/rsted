@@ -74,6 +74,7 @@ code, pre {
 }
 
 #divOutputContainer p {
+    line-height: 1.5em;
     text-indent: 0.5em;
 }
 
@@ -124,25 +125,30 @@ code, pre {
 
 #divOutputContainer blockquote {
     border-left: 0.125em solid #FFFFFF;
-    margin: 0.25em 0.50em;
-    padding: 0.125em 0 0.125em 1em;
+    margin: 0.125em 0.25em;
+    padding: 0.0625em 0 0.0625em 0.5em;
 }
 
 #divOutputContainer h1.title {
     font-size: 4rem;
 }
 
-#divOutputContainer h2.subtitle {
-    margin-top: 0.75em;
-    font-size: 3.75rem;
+#divOutputContainer h2.subtitle /* H2 */ {
+    font-size: 3.5rem;
+    margin-top: -1em;
 }
 
-#divOutputContainer h1 /* H3 */ {
+#divOutputContainer h1 /* H2 */ {
     margin-top: 0.75em;
     font-size: 3.5rem;
 }
 
-#divOutputContainer h2 /* H4 */ {
+#divOutputContainer h2 /* H3 */ {
     margin-top: 0.75em;
     font-size: 3.25rem;
+}
+
+#divOutputContainer h3 /* H4 */ {
+    margin-top: 0.75em;
+    font-size: 2.75rem;
 }
