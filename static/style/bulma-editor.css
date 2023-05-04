@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.columns {
+    height: 102.4%;
+}
+.column {
+    padding: 0;
+}
+
+.table, .table td, .table tr {
+    padding: 0 !important;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    background-color: transparent !important;
+}
+
+.is-dark, .has-background-dark {
+    background: #1e1e1e !important;
+}
+
+#txtInput, #divOutputContainer {
+    font-family: "DejaVu Sans Mono", "Anonymous Pro";
+    overflow: scroll;
+    padding: 0.5em;
+    height: 100%;
+    font-size: 34px;
+}
+
+#txtInput {
+    border: none;
+    padding: 0.75em;
+}
+
+code, pre {
+    height: 100%;
+}
+
+pre {
+    overflow: scroll;
+}
+
+code, pre {
+    margin: 0;
+    padding: 0;
+}
+
+/* MANUAL STYLE OVERRIDES  */
+
+#divOutputContainer * {
+    color: #FFFFFF;
+    line-height: 2em;
+}
+
+#divOutputContainer {
+    padding: 1em;
+}
+
+#divOutputContainer p,
+#divOutputContainer li,
+#divOutputContainer dd,
+#divOutputContainer dt,
+#divOutputContainer blockquote {
+    font-size: 34px;
+}
+
+#divOutputContainer p {
+    text-indent: 0.5em;
+}
+
+#divOutputContainer tt {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#divOutputContainer ol,
+#divOutputContainer ul {
+    padding-left: 2em;
+}
+
+#divOutputContainer ol.arabic > li {
+    list-style-type: decimal;
+}
+
+#divOutputContainer ul > li {
+    list-style-type: circle;
+}
+
+#divOutputContainer ul ul > li {
+    list-style-type: square;
+}
+
+#divOutputContainer ol.arabic ol.arabic > li {
+    list-style-type: lower-latin;
+}
+
+#divOutputContainer dt {
+    font-weight: bold;
+}
+
+#divOutputContainer dd {
+    margin: 0;
+    padding-left: 2em;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+
+#divOutputContainer div.section {
+    padding: 0;
+}
+
+#divOutputContainer blockquote {
+    border-left: 0.125em solid #FFFFFF;
+    margin: 0.25em 0.50em;
+    padding: 0.125em 0 0.125em 1em;
+}
+
+#divOutputContainer h1.title {
+    font-size: 4rem;
+}
+
+#divOutputContainer h2.subtitle {
+    font-size: 3.75rem;
+}
+
+#divOutputContainer h1 /* H3 */ {
+    font-size: 3.5rem;
+}
+
+#divOutputContainer h2 /* H4 */ {
+    font-size: 3.25rem;
+}

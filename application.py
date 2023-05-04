@@ -45,6 +45,13 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route('/minimal/')
+def minimal():
+    if not request.script_root:
+        request.script_root = url_for('index', _external = True)
+
+    return render_template('editor-bulma.html')
+
 @app.route('/srv/rst2html/', methods=['POST', 'GET'])
 def rst2html():
     rst = request.form.get('rst', '')

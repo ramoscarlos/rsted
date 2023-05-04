@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block page_title %}Online reStructuredText Editor{% endblock page_title %}</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+        <script type="text/javascript">
+        var script_root = {{ request.script_root|tojson|safe }};
+        </script>
+
+        {% block additional_css %}{% endblock additional_css %}
+    </head>
+
+    <body>
+        {% block content %}{% endblock content %}
+    </body>
+</html>
