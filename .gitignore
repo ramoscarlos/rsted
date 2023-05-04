@@ -14,3 +14,9 @@ pyvenv.cfg
 /Include
 /Lib
 /libs
+# Added to ignore Prod files.
+.htaccess
+errors.log
+*.fcgic
+/tmp
+passenger_wsgi.py
