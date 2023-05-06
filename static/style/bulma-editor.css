@@ -152,3 +152,21 @@ code, pre {
     margin-top: 0.75em;
     font-size: 2.75rem;
 }
+
+/*Summary */
+
+#divSummary2 p {
+    line-height: 11em;
+}
+
+#divSummary3 p {
+    line-height: 9em;
+}
+
+#divSummary4 p {
+    line-height: 7em;
+}
+
+#divSummary5 p {
+    line-height: 5.5em;
+}
