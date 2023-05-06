@@ -153,6 +153,12 @@ code, pre {
     font-size: 2.75rem;
 }
 
+/* Warnings */
+
+#divOutputContainer div.system-message {
+    display: none;
+}
+
 /*Summary */
 
 #divSummary2 p {
