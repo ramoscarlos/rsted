@@ -125,7 +125,7 @@ code, pre {
 
 #divOutputContainer blockquote {
     border-left: 0.125em solid #FFFFFF;
-    margin: 0.125em 0.25em;
+    margin: 0.25em 0.25em 0.125em;
     padding: 0.0625em 0 0.0625em 0.5em;
 }
 
