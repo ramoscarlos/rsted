@@ -31,14 +31,13 @@ html, body {
 #txtInput, #divOutputContainer {
     font-family: "DejaVu Sans Mono", "Anonymous Pro";
     overflow: scroll;
-    padding: 0.5em;
     height: 100%;
     font-size: 34px;
 }
 
 #txtInput {
     border: none;
-    padding: 0.75em;
+    padding: 1.5em;
 }
 
 code, pre {
@@ -62,7 +61,7 @@ code, pre {
 }
 
 #divOutputContainer {
-    padding: 1em;
+    padding: 2em;
 }
 
 #divOutputContainer p,
@@ -71,6 +70,7 @@ code, pre {
 #divOutputContainer dt,
 #divOutputContainer blockquote {
     font-size: 34px;
+    text-align: justify;
 }
 
 #divOutputContainer p {
