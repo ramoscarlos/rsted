@@ -20,3 +20,6 @@ errors.log
 *.fcgic
 /tmp
 passenger_wsgi.py
+# From local server
+log.txt
+nohup.out
