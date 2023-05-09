@@ -10,6 +10,8 @@ function inputTextChanged() {
         'success': function (response) {
             // Lyrics.
             $('#divOutput').html(response);
+	    // Taken from https://stackoverflow.com/a/34063974
+	    $('#txtInput').animate({ scrollTop: 9999 }, 'slow');
         }
     });
 }
