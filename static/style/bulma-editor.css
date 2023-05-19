@@ -176,3 +176,26 @@ code, pre {
 #divSummary5 p {
     line-height: 5.5em;
 }
+
+
+
+
+/* GET PARAMS CHANGES */
+
+/* Make the warnings visible in the "warnings" view */
+
+#divOutputContainer.show_warnings div.system-message {
+    display: block !important;
+}
+
+.show_warnings .system-message,
+.show_warnings .system-message-title {
+    color: #333 !important;
+}
+
+/* Also, add borders to list and other elements as the lessons see fit */
+
+.show_warnings ul {
+    border: 4px dotted #9e9e9e;
+    margin: 0.75rem 0;
+}

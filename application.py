@@ -51,7 +51,11 @@ def minimal():
   if not request.script_root:
     request.script_root = url_for('index', _external = True)
 
-  return render_template('editor-bulma.html')
+  g_warn = request.args.get('warn')
+  if g_warn:
+    g_warn = 'show_warnings'
+
+  return render_template('editor-bulma.html', show_warning = g_warn)
 
 @app.route('/summary/')
 def summary():
