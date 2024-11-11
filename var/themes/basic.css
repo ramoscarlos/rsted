@@ -9,6 +9,10 @@
  *
  */
 
+div.document {
+    margin-top: -32px;
+}
+
 /* -- main layout ----------------------------------------------------------- */
 
 div.clearer {
