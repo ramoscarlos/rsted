@@ -23,3 +23,6 @@ passenger_wsgi.py
 # From local server
 log.txt
 nohup.out
+# Sublime Text files
+*.sublime-workspace
+sftp-config.json
